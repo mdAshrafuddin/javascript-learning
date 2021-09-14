@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<title>Document</title>
+	<link rel="stylesheet" href="style.css">
+
+	<style>
+		a:focus, a:active {
+		  color: green;
+		}
+	</style>
+</head>
+<body>
+	<a id="myAnchor" href="https://www.w3schools.com">Visit W3Schools.com</a>
+	<br><br>
+	<input type="button" onclick="getfocus()" value="Get focus">
+	<input type="button" onclick="losefocus()" value="Lose focus">	
+
+	<br><br>
+	<input type="text" id="myText" value="A text field">
+
+	<p>Click the buttons to give focus and/or remove focus from the text field.</p>
+
+	<button type="button" onclick="getFocus1()">Get focus</button>
+	<button type="button" onclick="loseFocus1()">Lose focus</button>
+	
+	<br><br>
+
+	<img id="myImg" alt="Flower" src="klematis.jpg" width="150" height="113">
+
+	<p>Click the button to display each attribute's name and value of the image above.</p>
+
+	<button onclick="myFunction()">Try it</button>
+
+	<p id="demo"></p>
+
+	<p>Click the button to get the tag names of the body element's children.</p>
+
+	<button onclick="myFunction1()">Try it</button>
+
+	<p id="demo1"></p>
+
+	<script src="app.js"></script>
+</body>
+</html>

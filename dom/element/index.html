@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Dom css</title>
+	<style type="text/css">
+		.myStyle {
+			background: red;
+			width: 400px;
+			height: 200px;
+			color: #fff;
+			display: flex;
+			justify-content: center;
+			align-items: center;
+		}
+		.myBorder {
+			border: 2px solid black;
+		}
+
+		.myToggle 
+		{
+			background: black;
+			width: 400px;
+			height: 200px;
+			color: #fff;
+		}
+	</style>
+</head>
+<body>
+
+	<p>Click the button to add the "mystyle" class to DIV.</p>
+
+	<button onclick="myFunction()">Try it</button>
+
+	<p><strong>Note:</strong> The classList property is not supported in Internet Explorer 9 and earlier versions.</p>
+
+	<div id="myDIV">
+	I am a DIV element
+	</div>
+
+	<button onclick="myFunction1()">Submit</button>
+	<div id="myDiv1" class="myStyle myBorder"></div>
+
+	<p>Click the button to toggle between two classes.</p>
+
+	<button onclick="myFunction2()">Try it</button>
+
+	<p><strong>Note:</strong> The classList property is not supported in Internet Explorer 9 and earlier versions.</p>
+
+	<div id="myDIV2" class="myStyle">
+		I am a DIV element
+	</div>
+
+	<script type="text/javascript" src="app.js"></script>
+</body>
+</html>
+
